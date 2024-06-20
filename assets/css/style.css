@@ -397,3 +397,74 @@ margin-top: 30px;
 .section-team-social a:hover{
     background-color: #b28756;
 }
+.photoarea{
+    display: flex;
+    max-width: 1140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-client--avatar{
+    width: 150px;
+}
+.section-client-name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.section-client-role{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.section-client-review{
+    max-width: 840px;
+    text-align: center;
+}
+.section-review-icon{
+    margin-bottom: 10px;
+}
+.photoarea .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.photoarea .sliders-pointers{
+    margin-top: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photoarea .pointer.active{
+    background-color: #b28756;
+}
+
+
+.carousel-client{
+    width: 100vw;
+    height: 150px;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.carousel-images{
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-image{
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
